@@ -2,31 +2,32 @@
 layout: post
 title: "Leveraging AI for Coding"
 description:  "Summary of Chatbots and IDE Integration for AI Assisted Coding"
-excerpt: "You've got to know when to hold 'em"
-date: "2024-05-06T05:35:07.322Z"
+excerpt: "You've got to know when to hold 'em and know when to fold 'em."
+date: "2024-05-06T09:35:07.322Z"
 categories: ML
-author:
-  name: JJ Kasper
-  picture: "/assets/blog/authors/jj.jpeg"
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+
+image: /images/ai_generated_computer.png
 image_alt: AI Assisted Computing
 image_caption: AI Assisted Computing
+
+author:
+  name: James Sullivan
+  picture: "/assets/blog/authors/js.png"
+coverImage: "/assets/blog/ai-coding/ai_generated_computer3.png"
+ogImage:
+  url: "/assets/blog/ai-coding/ai_generated_computer3.png"
 ---
 
 
-# {$frontmatter.title}
-{$frontmatter.date}
 
-<div class="separator" style="clear: both; text-align: center;"><a href="../../../menu/portfolio/blog/leverage-ai-for-coding" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img height="109" src="{$frontmatter.image}" width="320" alt="{$frontmatter.alt}" /></a></div>
+<div class="separator" style="clear: both; text-align: center;"><a href="../../../menu/portfolio/blog/leverage-ai-for-coding" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img height="109" src="/assets/blog/ai-coding/ai_generated_computer.png" width="320" alt="AI Assisted Computing" /></a></div>
 <p>Using AI to help you be a more efficient programmer is a bit like Kenny Rogers' classic song "The Gambler": "You've got to know when to hold 'em, know when to fold 'em, know when to walk away, and know when to run." "You've got to know when to hold 'em" in the sense that most of the time the results you will get from large language models (LLMs) for code are surprisingly good, and you can use the results with little modification. You need to "know when to fold 'em" in that you will need to recognize when you need to change your prompts to get the results you want, and we discuss some strategies below. You need to "know when to walk away" in the sense that at the end of the day, these models are only combining code they have seen before and do not generalize logic well, so when the results are not getting better despite trying different prompts, you need to cut your losses and do the work manually. Finally, you need to know "when to run" and not use AI-assisted coding in the first place. If you are trying to use a language the model has not been trained on or a library built after the model's training date, it is more time-efficient not to use it at all. Moreover, if safety and security considerations are paramount and you do not already have the skill to understand when the results may be hallucinations or wrong, you shouldn't use AI-generated code.</p>
 
 <p>WARNING: Although everything written here is up-to-date at the time of writing, models and tools are changing rapidly.</p>
 
 <p>Currently, you can roughly divide up AI-assisted coding tools into two types of tools, Chatbots, and IDE integration. </p>
 
-# Chatbots
+<h2>Chatbots</h2>
 
 <p>Chatbots are used for the big picture, to explore ideas, and to set up the development of products. Although they can also be used for the details as well, modifying code is done more efficiently by using an IDE with integrated LLMs for a smoother workflow.</p>
 
@@ -96,13 +97,13 @@ image_caption: AI Assisted Computing
 </table>
 </div>
 <ol>
-    <li id="footnote-1">All chatbots have free and paid tiers.</li>
-    <li id="footnote-2"> Multimodal is the ability to handle images and other media types.</li>
-    <li id="footnote-3"> By run code we mean you can ask the chatbot to run code for you.</li>
+    <li id="footnote-1">1. All chatbots have free and paid tiers.</li>
+    <li id="footnote-2">2. Multimodal is the ability to handle images and other media types.</li>
+    <li id="footnote-3">3. By run code we mean you can ask the chatbot to run code for you.</li>
 </ol>
 
 
-## Chatbot Prompts
+### Chatbot Prompts
 
 <p>Before we start, keep in mind that the results from large language models (LLMs) are very brittle. The results can vary widely due to a minor change in the prompt, using a different LLM, or even an updated version of the same LLM.</p>
 
@@ -114,10 +115,10 @@ image_caption: AI Assisted Computing
 You are an experienced professional software developer that always uses up-to-date industry best practices. 
 Provide correct responses to questions noting any uncertainties. 
 I am aware of AI limitations so please skip explanations about your limitations. 
-You should prompt me for more information and give suggestions of how to write better prompts so you can better answer as necessary.
+You should prompt me for more information and give suggestions of how to write better prompts.
 ```
 
-## Prompting Strategies
+### Prompting Strategies
 
 <p>Keep prompts short and specific, then build on them with multiple prompts to guide the AI to what you are looking for. If necessary, label parts of the prompt, for example: Context, Input, Instruction, Restriction, Output Format.</p>
 
@@ -131,18 +132,19 @@ You should prompt me for more information and give suggestions of how to write b
 
 <p>For a more detailed look try this <a href="https://www.promptingguide.ai/">Prompt Engineering Guide</a>.</p>
 
-## Examples
+### Examples
 
-### General Examples
+#### General Examples
 ```
-The following code is throwing a NullPointerException when calling Method(). Can you identify the cause and suggest a fix?
+The following code is throwing a NullPointerException when calling Method(). 
+Can you identify the cause and suggest a fix?
 How can I make the following code run faster?
 Summarize in a structured outline the important changes in the following change log of version 2.1.4: """
 {Change Log}
 """
 ```
 
-### Project Example
+#### Project Example
 ```
 Examples for a project to scrape data from Wikipedia.
 What are some examples on GitHub to scrape data from a website like Wikipedia?
@@ -156,9 +158,10 @@ Create a package.json file for this project.
 
 ```
 
+
 <p>Use <code>continue</code> or <code>go on</code> to get around token output limits.</p>
 
-# IDE Integration
+## IDE Integration
 
 <p>IDEs use the context that you have provided via the comments and code in your file and offer suggestions. They allow you to work on details while staying in your dev tooling.</p>
 
@@ -260,17 +263,17 @@ Create a package.json file for this project.
 </div>
 
 
-## IDE Prompts
+### IDE Prompts
 
 <p>Most IDE integration is driven by code comments and code that you write, which the AI assistant then gives a suggestion or multiple suggestions for completion. The most popular AI assistants for IDEs use the [Tab] key to accept the code suggestion or the [Escape] key to skip it. Beyond that, you need to look up, and it is worth the time, the keyboard shortcuts and the functionality for the specific AI coding assistant that you have chosen. Most IDE integrations also support selecting code and then choosing to have it explained, fixed, refactored, optimized, or sent to an integrated chatbot.</p>
 
-![Amazon Q screenshot](/images/AmazonQ.png "Amazon Q screenshot")
+![Amazon Q screenshot](/assets/blog/ai-coding/AmazonQ.png "Amazon Q screenshot")
 <br/>
 
-## Examples
+### Examples
 
 
-### General Coding 
+#### General Coding 
 
 ```
 # Define a Python class called Employee
@@ -283,10 +286,11 @@ Create a package.json file for this project.
 # The attributes cannot be None and only department and title can be modified after construction
 # However, we should be able to access the attributes using methods
 
-// TypeScript function to parse dates from strings. The function handles both YYYY-MM-DD, MM/DD/YYYY formats and returns a datetime object.
+// TypeScript function to parse dates from strings. 
+// The function handles both YYYY-MM-DD, MM/DD/YYYY formats and returns a datetime object.
 ```
 
-### Code Quality
+#### Code Quality
 ```
 What does this code snippet do? Explain how it works.
 Code analysis - What is wrong with this code?
@@ -301,17 +305,18 @@ Write a code review for the code below.
 <p>Minified code can be unminified by using the prompt "fix this code:". The quality of the results will vary. There are also open-source LLMs such as <a href="https://github.com/albertan017/LLM4Decompile">LLM4Decompile</a>specifically for decompiling binary code to C.</p>
 <p>You can use AI tools for many things, such as linting, calculating cyclomatic complexity, Halstead complexity, maintainability index, code coverage, etc. However, as these items have 100% reliable deterministic tools available, use those instead, and you do not have to worry about hallucinations or mistakes.</p>
 
-### Data
+#### Data
 ```
 For a <small/large> amounts of <numeric, text, real-time, image, geospatial> data, which free database is best?
-Make a <sqlite/MariaDB/Postgresql/SQL Server> database schema design for <inventory/blog/web scraping>. It should include tables and relationships between them including primary and foreign keys.
+Make a <sqlite/MariaDB/Postgresql/SQL Server> database schema design for <inventory/blog/web scraping>. 
+It should include tables and relationships between them including primary and foreign keys.
 The sql to create those tables
 Create the SQL to insert this CSV data ‘0, Babbage, Inventor’ into the user table.
-Represent this JSON array: [{‘id’: 1, ‘name’: ‘Turing’, ‘job’: ‘Scientist’}, {‘id’: 2, ‘name’: ‘Bob’,‘job’: ‘Designer’}] in a SQL table format.
+The JSON array: [{‘id’: 1, ‘name’: ‘Turing’, ‘job’: ‘Scientist’}, {‘id’: 2, ‘name’: ‘Bob’,‘job’: ‘Designer’}] in SQL table format.
 Create the sql for 20 rows of demo data for the user table.
 ```
 
-### APIs
+#### APIs
 <p>Chatbots are useful for both creating and exposing your own APIs as well as finding and consuming other people’s APIs.</p>
 
 ```
@@ -320,7 +325,7 @@ What are some publicly available stock price APIs?
 Some example Python code for accessing the Finnhub api to get stock prices.
 ```
 
-### UI
+#### UI
 <p><a href="https://openart.ai">OpenArt</a> and <a href="https://www.canva.com">Canva</a> are sites specifically for creating images and professional designs. <a href="https://teleporthq.io">Teleporthq</a> (React, Vue, Angular, HTML&CSS, or UIDL) and <a href="https://v0.dev/">v0 by Vercel</a> (React and Tailwind CSS) are sites specifically for creating website front-ends. <a href="https://www.animaapp.com/">Anima</a> and <a href="https://www.locofy.ai/">Locofy</a>  are plugins for Figma to generate React, Vue, or HTML code to create website front-ends, with Locofy also supporting Adobe XD as a source and Next.js, Gatsby, or React Native as output targets.</p> 
 
 ```
@@ -328,7 +333,7 @@ Provide the CSS for a html page to have three columns of text in a newspaper sty
 Create an <hero image png\SVG logo> that incorporates the letter S for a technology company.
 ```
 
-### Testing
+#### Testing
 <p>Note: GitHub Copilot allows you to select the code you want to unit test and then ask Copilot <code>#selection write a unit test for this code</code>. Similarly, for Amazon CodeWhisperer, you can select the code you want to test and then right-click 'Send to Amazon CodeWhisperer' -> 'Send to prompt', and in the Amazon CodeWhisperer chat window, type <code>write a unit test for</code>.</p>
 <p>For more sophisticated integration and behavior testing, you may need to write a little or even a lot of the test case code manually before your AI assistant has enough context to be helpful.</p>
 
@@ -340,7 +345,7 @@ Use a mock object for scraper.js
 Simulate user behaviour for this program.
 ```
 
-### Documentation
+#### Documentation
 <p>The AI assistant generated documentation may not be perfect, but it can be much quicker to edit than doing it all from scratch.</p>
 <ul>
     <li>You can ask your LLM to generate documents such as user manuals, FAQs, README files, API documentation, troubleshooting guides, etc.</li>
@@ -361,22 +366,24 @@ Simulate user behaviour for this program.
 What does this code do?
 Generate documentation for this API.
 ```
+<br>
 
-### Deployment
+#### Deployment
 
 <p>It may not be the readily apparent, but LLMs can also be helpful for pull requests, virtual machines, cloud infrastructure, and various other aspects of deployment.</p>
 
 
 ```
 I added real-time streaming prices to the application using sockets. Write a PR description for this.
-Create a Dockerfile for this JavaScript app. The main class is index.js. Use the latest Node and install the dependencies using the package.json file in this directory.
-Create a Terraform file to provision an AWS EC2 instance of type t2.micro, installs the Docker daemon, and returns the instance's hostname.
+Create a Dockerfile for this JavaScript app. 
+The main class is index.js. Use the latest Node and install the dependencies using the package.json file in this directory.
+Create a Terraform file to provision a type t2.micro AWS EC2 instance which installs the Docker daemon, and returns the hostname.
 Create a GitHub Actions workflow that builds the scraper application and on every merge to the master branch deploys it to EKS.
 
 ```
 
 
-### Ongoing Maintenance, Updates, and Migrations
+#### Ongoing Maintenance, Updates, and Migrations
 
 ```
 Are there more up-to-date libraries for package.json
@@ -384,7 +391,7 @@ Update the code to Java 21
 Translate this Javascript code to Python
 ```
 
-## Other developer related AI tools
+### Other developer related AI tools
 
 <ul>
   <li>UI designer <a href="https://uizard.io/">Uizard</a></li>
@@ -397,14 +404,14 @@ Translate this Javascript code to Python
 </ul>
  
 
-## Books
+### Books
 
 <a href="https://www.oreilly.com/library/view/ai-assisted-programming/9781098164553/">AI-Assisted Programming</a>  (all stages of code creation)<br>
 <a href="https://www.manning.com/books/ai-powered-developer">AI-Powered Developer</a>  (thorough example of doing a significant project)<br>
 <a href="https://www.wiley.com/en-ca/Coding+with+AI+For+Dummies-p-9781394249145">Coding with AI for Dummies</a>   (looks at a variety of tools)<br>
 
 
-## Future (Agents, etc.)
+### Future (Agents, etc.)
 
 <ul>
   <li><a href="https://github.blog/2024-04-29-github-copilot-workspace/">GitHub Copilot Workspace</a> allows high-level specification and planning similar to using the Chats, but it is also integrated into your IDE and can actually make changes in the project files for you. GCW has a nice feature where it discusses a specification of proposed changes it will make before making the changes. Then, after you approve the steps in the plan, it will make the actual changes in your code for you.</li>
@@ -414,6 +421,6 @@ Translate this Javascript code to Python
 
 
 <br><br>
-<img class="cc-icon css-11y11pk" width="32" height="32"  alt="Attribution 4.0 International (CC BY 4.0)" style="display: inline-block;" src="/images/cc.svg">&nbsp;<img class="cc-icon css-11y11pk" width="32" height="32" style="display: inline-block;" alt="James Sullivan" src="/images/by.svg">
+<img class="cc-icon css-11y11pk" width="32" height="32"  alt="Attribution 4.0 International (CC BY 4.0)" style="display: inline-block;" src="/assets/blog/cc.svg">&nbsp;<img class="cc-icon css-11y11pk" width="32" height="32" style="display: inline-block;" alt="James Sullivan" src="/assets/blog/by.svg">
 
 This article is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a> license.
