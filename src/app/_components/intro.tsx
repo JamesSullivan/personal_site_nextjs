@@ -21,23 +21,17 @@ export function Intro() {
         <h2 className="text-4xl md:text-6xl font-bold tracking-tighter leading-tight md:pr-6">Services</h2>
       </div>
       <div className="flex flex-row justify-center md:justify-between">
-      <div className="box a">
-        <div className="text-3xl font-bold">Digital Product Dev</div>
-        <div className="text-2xl pl-3">
-          research<br />planning<br />costing<br /> sourcing
-        </div>
-      </div>
       <div className="box b">
-        <div className = "text-3xl font-bold">Software Engineering</div>
+        <div className = "text-3xl font-bold">Digital Product</div>
         <div className="text-2xl pl-3">
-          team formation<br />prototyping<br />implementation<br />testing &
+          costing<br />prototyping<br />implementation<br />testing &
           integration
         </div>
       </div>
       <div className="box c text-left">
         <div className="text-3xl font-bold text-align: left">Data & Analytics</div>
         <div className="text-2xl pl-3">
-          web scraping<br />data visualization<br />ETL<br />data pipelines<br />
+          scraping<br />visualization<br />ETL<br />ML<br />
         </div>
       </div>
     </div>

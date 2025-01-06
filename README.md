@@ -12,7 +12,7 @@ To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) a
 
 ## Demo
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+[https://personal-site-nextjs-dhcno3m0s-jamessullivans-projects.vercel.app/](https://personal-site-nextjs-dhcno3m0s-jamessullivans-projects.vercel.app/)
 
 ## Deploy your own
 
