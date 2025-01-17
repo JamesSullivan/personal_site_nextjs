@@ -1,6 +1,6 @@
 ---
 title: "Keyboard Shortcuts"
-description: A placeholder for useful OS, VS Code and other keyboard shortcuts
+d<kbd>Esc</kbd>ription: A placeholder for useful OS, VS Code and other keyboard shortcuts
 excerpt: "Keyboard Shortcuts for the Desktop (Gnome/Windows), Web Browsers, and VS Code"
 date: "2023-07-28T09:35:07.323Z"
 
@@ -16,43 +16,43 @@ ogImage:
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-  <a href="https://help.gnome.org/users/gnome-help/stable/shell-keyboard-shortcuts.html.en"><b>Gnome</b></a>/<a href="https://www.customguide.com/cheat-sheet/windows-11-quick-reference.pdf"><span style="color:Blue;font-weight: bold;">Windows 11</span></a>
+  <a href="https://help.gnome.org/users/gnome-help/s<kbd>Tab</kbd>le/shell-keyboard-shortcuts.html.en"><b>Gnome</b></a>/<a href="https://www.customguide.com/cheat-sheet/windows-11-quick-reference.pdf"><span style="color:Blue;font-weight: bold;">Windows 11</span></a>
 </div>
-<Chip>Alt+F6</Chip> - Switch Windows of same app <Chip>⌘+</Chip><br>
-<Chip>Alt+Esc</Chip> - Cycle Windows (current WS no HUD)<br>
-<Chip>⌘+Tab</Chip><Chip><span style="color:Blue;">⌘+Tab</span></Chip> - Cycle through Windows (All WSs with HUD)<br>
-<Chip>⌘+Page Up/Down</Chip> <Chip><span style="color:Blue;">Ctrl+⌘+←/→</span></Chip> - activate left/right workspace &nbsp;<br>
-<Chip>⇧+⌘+PageDown</Chip> - move window to right workspace<br>
-<Chip>⇧+⌘+←/→</Chip> - Move window one monitor to left/right.<br>
-<Chip>Ctrl+PageDown</Chip> - Move to tab to the right<br>
-<Chip>F10</Chip> - Open first menu of app (usually File)<br>
-<Chip>⇧+F10</Chip> - Right mouse click contextual menu<br>
-<Chip>⇧+Ctrl+N</Chip> - Create new folder (Nautilus)<br>
-<Chip>Alt+￪/￬</Chip> - Enter parent/child directory (Nautilus)<br>
-<Chip>⌘+v</Chip> - Show clipboard history (custom GPaste)<br>
-<Chip><span style="color:Blue;">⌘+z</span></Chip> - <span style="color:Blue;">Windows 11 Snap Layouts</span><br>
-<Chip><span style="color:Blue;">Ctrl+⌘+d</span></Chip> - <span style="color:Blue;">Add a virtual workspace</span><br>
+<kbd>Alt</kbd>+<kbd>F6</kbd> - Switch Windows of same app  <span style="color:Blue;"><kbd>⌘</kbd>+Click</span><br>
+<kbd>Alt</kbd>+<kbd>Esc</kbd> - Cycle Windows (current WS no HUD)<br>
+<kbd>⌘</kbd>+<kbd>Tab</kbd> - Cycle through Windows (All WSs with HUD)<br>
+<kbd>⌘</kbd>+<kbd>PageUp/Down</kbd> <span style="color:Blue;"><kbd>Ctrl</kbd>+<kbd>⌘</kbd>+←/→</span> - activate left/right workspace &nbsp;<br>
+<kbd>⇧</kbd>+<kbd>⌘</kbd>+<kbd>PageDown</kbd> - move window to right workspace<br>
+<kbd>⇧</kbd>+<kbd>⌘</kbd>+←/→ - Move window one monitor to left/right.<br>
+<kbd>Ctrl</kbd>+<kbd>PageDown</kbd> - Move to <kbd>Tab</kbd> to the right<br>
+<kbd>F10</kbd> - Open first menu of app (usually File)<br>
+<kbd>⇧</kbd>+<kbd>F10</kbd> - Right mouse click contextual menu<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+N - Create new folder (Nautilus)<br>
+<kbd>Alt</kbd>+￪/￬ - <kbd>⏎</kbd> parent/child directory (Nautilus)<br>
+<kbd>⌘</kbd>+v - Show clipboard history (custom GPaste)<br>
+<span style="color:Blue;"><kbd>⌘</kbd>+z</span> - <span style="color:Blue;">Windows 11 Snap Layouts</span><br>
+<span style="color:Blue;"><kbd>Ctrl</kbd>+<kbd>⌘</kbd>+d</span> - <span style="color:Blue;">Add a virtual workspace</span><br>
 </div>
 <div style="">
 <div class="l-font-size">
    <a href="https://www.minitool.com/news/keyboard-shortcuts-for-all-web-browsers.html" style="font-weight: bold;">Web Browser</a>
 </div>
-<Chip>Ctrl+Tab</Chip> - Switch to the next tab<br>
-<Chip>Alt/<span style="color:Blue;">Ctrl</span>+1..9</Chip> - Locate to tab ...<br>
-<Chip>Ctrl+d</Chip> - Bookmark the current tab<br>
-<Chip>⇧+Ctrl+d</Chip> - Bookmark all open tabs<br>
-<Chip>Ctrl+g</Chip> - Find next after find <Chip>F3</Chip><br>
-<Chip>⇧+Ctrl+g</Chip> - Find previous (after find)<br>
-<Chip>Ctrl+Alt+h</Chip> - Open LastPass (custom)<br>
-<Chip>Ctrl+k</Chip> - Focus built in web search<br>
-<Chip>Ctrl+u</Chip> - open source code in new tab<br>
-<Chip>Middle click tab</Chip> - Close tab<br>
-<Chip>Middle click page</Chip> - Open link in background<br>
-<Chip>⇧+Middle click page</Chip> - Open link in foreground<br>
-<Chip>⇧+Right click</Chip> - Force browser right click menu<br>
-<Chip>F6</Chip> - Move to next frame<br>
-<Chip>F7</Chip> - Caret browsing<br>
-<Chip>⇧+Ctrl+N</Chip> - Undo close window (FF) or private (Chrome)<br>
+<kbd>Ctrl</kbd>+<kbd>Tab</kbd> - Switch to the next <kbd>Tab</kbd><br>
+<kbd>Alt</kbd>/<span style="color:Blue;"><kbd>Ctrl</kbd></span>+1..9 - Locate to <kbd>Tab</kbd> ...<br>
+<kbd>Ctrl</kbd>+d - Bookmark the current <kbd>Tab</kbd><br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+d - Bookmark all open <kbd>Tab</kbd>s<br>
+<kbd>Ctrl</kbd>+g - Find next after find <kbd>F3</kbd><br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+g - Find previous (after find)<br>
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+h - Open LastPass (custom)<br>
+<kbd>Ctrl</kbd>+k - Focus built in web search<br>
+<kbd>Ctrl</kbd>+u - open source code in new <kbd>Tab</kbd><br>
+Middle click <kbd>Tab</kbd> - Close <kbd>Tab</kbd><br>
+Middle click page - Open link in background<br>
+<kbd>⇧</kbd>+Middle click page - Open link in foreground<br>
+<kbd>⇧</kbd>+Right click - Force browser right click menu<br>
+<kbd>F6</kbd> - Move to next frame<br>
+<kbd>F7</kbd> - Caret browsing<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+N - Undo close window (FF) or private (Chrome)<br>
 </div>
 </div>
 <br>  
@@ -62,43 +62,43 @@ ogImage:
 <div class="l-font-size">
    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS Code</a>
 </div>
-<Chip>Alt-Click</Chip> - Add another cursor<br>
-<Chip>Select+Ctrl+d</Chip> - add multi-cursor at next<br>
-<Chip>Alt+￪</Chip> - Move current line up one line<br>
-<Chip>⇧+Alt</Chip> - box selection of text<br>
-<Chip>⇧+Alt+￪</Chip> - Extend Cursor upwards<br>
-<Chip>⇧+Alt+→</Chip> - Extend selection horizontally<br>
-<Chip>⇧+Alt+.</Chip> - Autofix<br>
-<Chip>F2</Chip> - rename all instances of a variable or function<br>
-<Chip>F3/⇧+F3</Chip> - Find next/previous<br>
-<Chip>F8</Chip> - go to next error or warning<br>
-<Chip>F12</Chip> - go to definition<br>
-<Chip>Ctrl+Enter</Chip> - add new line below/⇧above<br>
-<Chip>Ctrl+[</Chip> - shift selection left or Ctrl+] right<br>
-<Chip>Ctrl+b</Chip> - toggle side panel<br>
-<Chip>Ctrl+d</Chip> - go to next after find/multiselection<br>
-<Chip>Ctrl+g</Chip> - go to line<br>
+<kbd>Alt</kbd>-Click - Add another cursor<br>
+Select+<kbd>Ctrl</kbd>+d - add multi-cursor at next<br>
+<kbd>Alt</kbd>+￪ - Move current line up one line<br>
+<kbd>⇧</kbd>+<kbd>Alt</kbd> - box selection of text<br>
+<kbd>⇧</kbd>+<kbd>Alt</kbd>+￪ - Extend Cursor upwards<br>
+<kbd>⇧</kbd>+<kbd>Alt</kbd>+→ - Extend selection horizontally<br>
+<kbd>⇧</kbd>+<kbd>Alt</kbd>+. - Autofix<br>
+<kbd>F2</kbd> - rename all instances of a variable or function<br>
+<kbd>F3</kbd>/<kbd>⇧</kbd>+<kbd>F3</kbd> - Find next/previous<br>
+<kbd>F8</kbd> - go to next error or warning<br>
+<kbd>F12</kbd> - go to definition<br>
+<kbd>Ctrl</kbd>+<kbd>⏎</kbd> - add new line below/<kbd>⇧</kbd>above<br>
+<kbd>Ctrl</kbd>+[ - shift selection left or <kbd>Ctrl</kbd>+] right<br>
+<kbd>Ctrl</kbd>+b - toggle side panel<br>
+<kbd>Ctrl</kbd>+d - go to next after find/multiselection<br>
+<kbd>Ctrl</kbd>+g - go to line<br>
 </div>
 <div style="">
 <div class="l-font-size">
   &nbsp;
 </div>
-<Chip>Ctrl+j</Chip> - toggle focus between editor/terminal<br>
-<Chip>Ctrl+l</Chip> - select line (repeat to select following)<br>
-<Chip>Ctrl+p</Chip> - search files<br>
-<Chip>Ctrl+x</Chip> - with nothing selected cuts entire line<br>
-<Chip>Ctrl+/</Chip> - comment code (works on Jupyter also)<br>
-<Chip>Ctrl+\</Chip> - split editor<br>
-<Chip>⇧+Ctrl+\</Chip> - goto matching bracket ()<br>
-<Chip>Ctrl+Alt+n</Chip> - run current file (code-runner)<br>
-<Chip>⇧+Ctrl+Alt+￬</Chip> - Copy line down<br>
-<Chip>⇧+Ctrl+i</Chip> - format code<br>
-<Chip>⇧+Ctrl+l</Chip> - rename all similar text<br>
-<Chip>Ctrl+k s</Chip> - save all<br>
-<Chip>Ctrl+k Ctrl+s</Chip> - keyboard shortcuts<br>
-<Chip>⇧+Ctrl+o</Chip> - find by code<br>
-<Chip>⇧+Ctrl+v</Chip> - preview (markdown)<br>
-<Chip>New file ! then tab</Chip> - creates html template<br>     
+<kbd>Ctrl</kbd>+j - toggle focus between editor/terminal<br>
+<kbd>Ctrl</kbd>+l - select line (repeat to select following)<br>
+<kbd>Ctrl</kbd>+p - search files<br>
+<kbd>Ctrl</kbd>+x - with nothing selected cuts entire line<br>
+<kbd>Ctrl</kbd>+/ - comment code (works on Jupyter also)<br>
+<kbd>Ctrl</kbd>+\ - split editor<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+\ - goto matching bracket ()<br>
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+n - run current file (code-runner)<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+￬ - Copy line down<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+i - format code<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+l - rename all similar text<br>
+<kbd>Ctrl+k</kbd> s - save all<br>
+<kbd>Ctrl+k</kbd> <kbd>Ctrl+s</kbd> - keyboard shortcuts<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+o - find by code<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+v - preview (markdown)<br>
+New file ! then <kbd>Tab</kbd> - creates html template<br>     
 </div>
 </div>
 <br>
@@ -108,9 +108,38 @@ ogImage:
 <div class="l-font-size">
    <a href="https://code.visualstudio.com/docs/python/jupyter-support-py#_additional-commands-and-keyboard-shortcuts" style="font-weight:bold;">Jupyter (in VS Code)</a>
 </div>
-<Chip>esc</Chip> - command mode j/k down/up  m/y markdown/code<br>
-<Chip>enter</Chip> - edit mode in cell from command mode<br>
-<Chip>Ctrl+Enter</Chip> - to run the current cell<br>
-<Chip>⇧+Enter</Chip> - run the current cell and advance to the next.<br>
+<kbd>Esc</kbd> - command mode j/k down/up  m/y markdown/code<br>
+<kbd>⏎</kbd> - edit mode in cell from command mode<br>
+<kbd>Ctrl</kbd>+<kbd>⏎</kbd> - to run the current cell<br>
+<kbd>⇧</kbd>+<kbd>⏎</kbd> - run the current cell and advance to the next.<br>
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+[/] - go to the cell above/below<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+[/] - extend selection by cell above/below<br>
+<kbd>Ctrl+;</kbd> U - move selected cells up<br>
+<kbd>Ctrl+;</kbd> D - move selected cells down<br>
+<kbd>Ctrl+;</kbd> A - insert cell above<br>
+<kbd>Ctrl+;</kbd> B - insert cell below<br>
+<kbd>Ctrl+;</kbd> C - change cell to code<br>
+<kbd>Ctrl+;</kbd> D - move selected cells down<br>
+<kbd>Ctrl+;</kbd> M - change cell to markdown<br>
+<kbd>Ctrl+;</kbd> X - delete selected cells<br>
+</div>
+<div style="">
+<div class="l-font-size">
+   <a href="https://sw.kovidgoyal.net/kitty/overview/" style="font-weight: bold;">Kitty</a>
+</div>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F1</kbd> - keyboard help<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+t/q - new/close <kbd>Tab</kbd><br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+←/→ - prev/next <kbd>Tab</kbd><br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+l - next layout<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+t - set <kbd>Tab</kbd> title<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>⏎</kbd> - new window<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+w - close window<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+[/] - previous/next window<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F7</kbd> - shift focus<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+1-9 - focus window 1-9<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+f - move window forward<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F8</kbd> - swap window<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F11</kbd>> - toggle fullscreen<br>    
 </div>
 </div>
+<br>
