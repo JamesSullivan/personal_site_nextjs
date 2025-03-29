@@ -140,7 +140,39 @@ New file ! then <kbd>Tab</kbd> - creates html template<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+1-9 - focus window 1-9<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+f - move window forward<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F8</kbd> - swap window<br>
-<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F11</kbd>> - toggle fullscreen<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F11</kbd> - toggle fullscreen<br>
+</div>
+</div>
+<br>
+
+
+<div class="grid-container">
+<div style="">
+<div class="l-font-size">
+   <a href="https://ss64.com/bash/syntax-keyboard.html" style="font-weight:bold;">Bash</a>
+</div>
+<kbd>Ctrl</kbd>+A - move cursor to start of line<br>
+<kbd>Ctrl</kbd>+E - move cursor to end of line<br>
+<kbd>Ctrl</kbd>+B - move cursor left<br>
+<kbd>Ctrl</kbd>+F - move cursor right<br>
+<kbd>Ctrl</kbd>+D/H - delete character under/before the cursor<br>
+<kbd>Ctrl</kbd>+W - cut the Word before the cursor to the clipboard.<br>
+<kbd>Alt</kbd>+D - cut the Word after the cursor to the clipboard.<br>
+<kbd>Ctrl</kbd>+Y - paste (only content cut from bash)<br>
+<kbd>Ctrl/Alt</kbd>+T - swap the last two characters/words before the cursor<br>
+<kbd>Ctrl</kbd>+X, <kbd>Ctrl</kbd>+E - edit in editor<br>
+^abc^def - run previous command, replacing abc with def<br>
+<kbd>Ctrl</kbd>+Z - place current command in background<br>
+<kbd>Ctrl</kbd>+Q - resume command in background<br>
+</div>
+<div style="">
+<div class="l-font-size">
+   <a href="https://chatgpt.com/" style="font-weight: bold;">ChatGPT</a>
+</div>
+<kbd>Ctrl</kbd>+<kbd>⏎</kbd> - Submit prompt<br>
+<kbd>⇧</kbd>+<kbd>⏎</kbd> - Add a new line without submitting<br>
+<kbd>/</kbd> - select search/canvas/image/deep research (ChatGPT)<br>
+<kbd>Ctrl</kbd>+k - Chat history (ChatGPT)
 </div>
 </div>
 <br>
