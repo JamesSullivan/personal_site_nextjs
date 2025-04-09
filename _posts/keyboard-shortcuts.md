@@ -16,7 +16,7 @@ ogImage:
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-  <a href="https://help.gnome.org/users/gnome-help/s<kbd>Tab</kbd>le/shell-keyboard-shortcuts.html.en"><b>Gnome</b></a>/<a href="https://www.customguide.com/cheat-sheet/windows-11-quick-reference.pdf"><span style="color:Blue;font-weight: bold;">Windows 11</span></a>
+  <a href="https://help.gnome.org/users/gnome-help/s<kbd>Tab</kbd>le/shell-keyboard-shortcuts.html.en"><b>GNOME</b></a>/<a href="https://www.customguide.com/cheat-sheet/windows-11-quick-reference.pdf"><span style="color:Blue;font-weight: bold;">WINDOWS 11</span></a>
 </div>
 <kbd>Alt</kbd>+<kbd>F6</kbd> - Switch Windows of same app  <span style="color:Blue;"><kbd>⌘</kbd>+Click</span><br>
 <kbd>Alt</kbd>+<kbd>Esc</kbd> - Cycle Windows (current WS no HUD)<br>
@@ -35,7 +35,7 @@ ogImage:
 </div>
 <div style="">
 <div class="l-font-size">
-   <a href="https://www.minitool.com/news/keyboard-shortcuts-for-all-web-browsers.html" style="font-weight: bold;">Web Browser</a>
+   <a href="https://www.minitool.com/news/keyboard-shortcuts-for-all-web-browsers.html" style="font-weight: bold;">WEB BROWSER</a>
 </div>
 <kbd>Ctrl</kbd>+<kbd>Tab</kbd> - Switch to the next <kbd>Tab</kbd><br>
 <kbd>Alt</kbd>/<span style="color:Blue;"><kbd>Ctrl</kbd></span>+1..9 - Locate to <kbd>Tab</kbd> ...<br>
@@ -60,7 +60,7 @@ Middle click page - Open link in background<br>
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-   <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS Code</a>
+   <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>
 </div>
 <kbd>Alt</kbd>-Click - Add another cursor<br>
 Select+<kbd>Ctrl</kbd>+d - add multi-cursor at next<br>
@@ -89,9 +89,10 @@ Select+<kbd>Ctrl</kbd>+d - add multi-cursor at next<br>
 <kbd>Ctrl</kbd>+x - with nothing selected cuts entire line<br>
 <kbd>Ctrl</kbd>+/ - comment code (works on Jupyter also)<br>
 <kbd>Ctrl</kbd>+\ - split editor<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+\ - goto matching bracket ()<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+e - toggle between Project view/editor<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+g - toggle between Git view/editor<br>
-<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+\ - goto matching bracket ()<br>
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+i - open/close the Chat view<br>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+n - run current file (code-runner)<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+￬ - Copy line down<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+i - format code<br>
@@ -108,7 +109,59 @@ New file ! then <kbd>Tab</kbd> - creates html template<br>
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-   <a href="https://code.visualstudio.com/docs/python/jupyter-support-py#_additional-commands-and-keyboard-shortcuts" style="font-weight:bold;">Jupyter (in VS Code)</a>
+   <a href="https://docs.github.com/en/copilot/copilot-chat-cookbook" style="font-weight:bold;">GITHUB COPILOT</a>
+</div>
+<span style="font-weight:bold;">Editor</span><br>
+<kbd>Ctrl</kbd>+i/<span style="color:Blue;"><kbd>Ctrl</kbd>+<kbd>⏎</kbd></span>Inline AI Assistant  <span style="color:Blue;">Zed</span><br>
+Autocomplete (<kbd>Tab</kbd> accept all) (<kbd>Ctrl</kbd>+→ accept next word)<br>
+Mouse over autocomplete to see bar for additional possibilities<br>
+Click on squigglies then press on stars to select fix<br>
+Select then <kbd>Ctrl</kbd>+i /fix - fix selection<br>
+<kbd>Alt</kbd>+<kbd>F5</kbd> - Navigate to the next edit within a file<br>
+<span style="font-weight:bold;">Terminal</span><br>
+<kbd>Ctrl</kbd>+<kbd>⏎</kbd> copy to terminal and execute<br>
+<kbd>Alt</kbd>+<kbd>⏎</kbd> copy to terminal but do not execute<br>
+copilot-debug node app.js or copilot-debug python manage.py<br>
+<span style="font-weight:bold;">Chat</span><br>   generate tests, generate documentation, etc.<br>
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+i - open/close the Chat view<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+p <code>Create Prompt</code> - save prompts<br>
+<span style="font-weight:bold;">Chat Commands</span><br>
+<kbd>Ctrl</kbd>+/ attach context to prompt<br>
+/explain /fix /setupTests /fixTestFailure /startDebugging<br>
+/new Express app using typescript and svelte<br>
+/newNotebook get census data and preview key insights with Seaborn.<br>
+</div>
+<div style="">
+<div class="l-font-size">
+  &nbsp;
+</div>
+<span style="font-weight:bold;">Chat Context Variables</span><br>
+#file #problems #searchResults from left sidebar #fetch url<br>
+How to improve #file:server.ts?<br>
+Fix this #selection<br>
+#sym:load_csvs_to_duckdb<br>
+<span style="font-weight:bold;">Chat Extensions</span><br>
+@workspace where is database connecting string configured?<br>
+@workspace add a new API route for the forgot password form<br>
+@vscode how to enable word wrapping?<br>
+@vscode /runCommand enable developer mode.<br>
+@vscode /search python files without imports<br>
+@github What are all of the open PRs assigned to me?<br>
+<br>
+<a href="https://marketplace.visualstudio.com/search?target=VSCode&category=AI&sortBy=Installs">More extensions</a><br>
+<a href="https://marketplace.visualstudio.com/items?itemName=buildwithlayer.django-integration-expert-Gus30">Django</a><br>
+<a href="https://marketplace.visualstudio.com/items?itemName=buildwithlayer.sqlalchemy-integration-expert-jYSzG">SQLAlchemy</a><br>
+<a href="https://marketplace.visualstudio.com/items?itemName=genaiscript.genaiscript-vscode">Gen AI Script</a><br>
+<a href="https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp">Copilot MCP</a><br>
+<a href="https://modelcontextprotocol.io/examples">MCP Examples</a><br>
+</div>
+</div>
+<br>
+
+<div class="grid-container">
+<div style="">
+<div class="l-font-size">
+   <a href="https://code.visualstudio.com/docs/python/jupyter-support-py#_additional-commands-and-keyboard-shortcuts" style="font-weight:bold;">JUPYTER(in VS Code)</a>
 </div>
 <kbd>Esc</kbd> - command mode j/k down/up  m/y markdown/code<br>
 <kbd>⏎</kbd> - edit mode in cell from command mode<br>
@@ -127,7 +180,7 @@ New file ! then <kbd>Tab</kbd> - creates html template<br>
 </div>
 <div style="">
 <div class="l-font-size">
-   <a href="https://sw.kovidgoyal.net/kitty/overview/" style="font-weight: bold;">Kitty</a>
+   <a href="https://sw.kovidgoyal.net/kitty/overview/" style="font-weight: bold;">KITTY</a>
 </div>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>F1</kbd> - keyboard help<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+t/q - new/close <kbd>Tab</kbd><br>
@@ -150,7 +203,7 @@ New file ! then <kbd>Tab</kbd> - creates html template<br>
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-   <a href="https://ss64.com/bash/syntax-keyboard.html" style="font-weight:bold;">Bash</a>
+   <a href="https://ss64.com/bash/syntax-keyboard.html" style="font-weight:bold;">BASH</a>
 </div>
 <kbd>Ctrl</kbd>+A - move cursor to start of line<br>
 <kbd>Ctrl</kbd>+E - move cursor to end of line<br>
