@@ -79,12 +79,12 @@ Select+<kbd>Ctrl</kbd>+d - add multi-cursor at next<br>
 <kbd>Ctrl</kbd>+d - go to next after find/multiselection<br>
 <kbd>Ctrl</kbd>+g - go to line<br>
 <kbd>Ctrl</kbd>+j - toggle focus between editor/terminal<br>
+<kbd>Ctrl</kbd>+l - select line (repeat to select following)<br>
 </div>
 <div style="">
 <div class="l-font-size">
   &nbsp;
 </div>
-<kbd>Ctrl</kbd>+l - select line (repeat to select following)<br>
 <kbd>Ctrl</kbd>+p - search files<br>
 <kbd>Ctrl</kbd>+x - with nothing selected cuts entire line<br>
 <kbd>Ctrl</kbd>+/ - comment code (works on Jupyter also)<br>
@@ -92,6 +92,7 @@ Select+<kbd>Ctrl</kbd>+d - add multi-cursor at next<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+\ - goto matching bracket ()<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+e - toggle between Project view/editor<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+g - toggle between Git view/editor<br>
+<kbd>⇧</kbd>+<kbd>Ctrl</kbd>+f - search text in all files<br>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+i - open/close the Chat view<br>
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+n - run current file (code-runner)<br>
 <kbd>⇧</kbd>+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+￬ - Copy line down<br>
