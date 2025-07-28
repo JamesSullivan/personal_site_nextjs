@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-mode="system">
+    <html lang="en" data-mode="light">
       <head>
         <link
           rel="apple-touch-icon"

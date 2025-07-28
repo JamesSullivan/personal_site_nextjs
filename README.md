@@ -28,9 +28,16 @@ npm run build
 npm start
 ```
 
+```
+npm outdated
+npm update
+
+```
 
 Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
 
+## Consider using 
+[QUOKKA: The JavaScript Playground in your Editor](https://quokkajs.com/)
