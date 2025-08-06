@@ -81,15 +81,16 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>Ctrl l</kbd> - select line (repeat to select following)<br>
 <kbd>Ctrl p</kbd> - search file names, # symbols, > commands<br>
 <kbd>Ctrl x</kbd> - with nothing selected cuts entire line<br>
+<kbd>Ctrl /</kbd> - comment code (works on Jupyter also)<br>
+<kbd>Ctrl \</kbd> - split editor<br>
 </div>
 <div style="">
 <div class="l-font-size">
   &nbsp;
 </div>
-<kbd>Ctrl /</kbd> - comment code (works on Jupyter also)<br>
-<kbd>Ctrl \</kbd> - split editor<br>
 <kbd>Ctrl Alt i</kbd> - open/close the Chat view<br>
 <kbd>Ctrl Alt n</kbd> - run file (code-runner)<br>
+<kbd>Ctrl Alt s</kbd> - save all files<br>
 <kbd>⇧ Ctrl b</kbd> - build tasks<br>
 <kbd>⇧ Ctrl e</kbd> - toggle Project view/editor<br>
 <kbd>⇧ Ctrl f</kbd> - search text in all files<br>
@@ -103,7 +104,7 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>⇧ Ctrl .</kbd> - breadcrumbs (contextual navigation)<br>
 <kbd>Ctrl c</kbd> <kbd>Ctrl v</kbd>- Copy line down<br>
 <kbd>Ctrl k</kbd> <kbd>d</kbd> - format code<br>
-<kbd>Ctrl k</kbd> <kbd>s</kbd> - save all<br>
+<kbd>Ctrl k</kbd> <kbd>s</kbd> - save without formatting<br>
 <kbd>Ctrl k</kbd> <kbd>Ctrl s</kbd> - keyboard shortcuts<br>
 New file ! then <kbd>Tab</kbd> - creates html template<br>
 </div>
