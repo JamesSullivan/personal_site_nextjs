@@ -37,18 +37,18 @@ ogImage:
 <div class="l-font-size">
    <a href="https://www.minitool.com/news/keyboard-shortcuts-for-all-web-browsers.html" style="font-weight: bold;">WEB BROWSER</a>
 </div>
-<kbd>Ctrl Tab</kbd> - Switch to the next <kbd>Tab</kbd><br>
-<kbd>Alt</kbd>/<span style="color:Blue;"><kbd>Ctrl</kbd></span>+1..9 - Locate to <kbd>Tab</kbd> ...<br>
-<kbd>Ctrl d</kbd> - Bookmark the current <kbd>Tab</kbd><br>
-<kbd>⇧ Ctrl d</kbd> - Bookmark all open <kbd>Tab</kbd>s<br>
+<kbd>'</kbd> - Find link on page then <kbd>⏎</kbd> to open<br>
+<kbd>Ctrl Tab</kbd> - Switch to the next Tab<br>
+<kbd>Alt</kbd>/<span style="color:Blue;"><kbd>Ctrl</kbd></span>+1..9 - Locate to Tab ...<br>
+<kbd>Ctrl d</kbd> - Bookmark the current Tab<br>
+<kbd>⇧ Ctrl d</kbd> - Bookmark all open Tabs<br>
 <kbd>Ctrl g</kbd> - Find next after find <kbd>F3</kbd><br>
 <kbd>⇧ Ctrl g</kbd> - Find previous (after find)<br>
 <kbd>Ctrl Alt h</kbd> - Open LastPass (custom)<br>
 <kbd>Ctrl k</kbd> - Focus built in web search<br>
 <kbd>Ctrl u</kbd> - open source code in new <kbd>Tab</kbd><br>
 Middle click <kbd>Tab</kbd> - Close <kbd>Tab</kbd><br>
-Middle click page - Open link in background<br>
-<kbd>⇧</kbd>+Middle click page - Open link in foreground<br>
+Middle click page - Open link in background/<kbd>⇧</kbd> foreground<br>
 <kbd>⇧</kbd>+Right click - Force browser right click menu<br>
 <kbd>F6</kbd> - Move to next frame<br>
 <kbd>F7</kbd> - Caret browsing<br>
