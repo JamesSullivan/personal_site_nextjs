@@ -60,7 +60,7 @@ Middle click page - Open link in background/<kbd>⇧</kbd> foreground<br>
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-   <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>
+    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>/<a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>
 </div>
 Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>Alt+￪</kbd> - Move current line up one line<br>
@@ -88,7 +88,7 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <div class="l-font-size">
   &nbsp;
 </div>
-<kbd>Ctrl Alt i</kbd> - open/close the Chat view<br>
+<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>⇧ Ctrl /</kbd></span> - toggle the AI Chat view<br>
 <kbd>Ctrl Alt n</kbd> - run file (code-runner)<br>
 <kbd>Ctrl Alt s</kbd> - save all files<br>
 <kbd>⇧ Ctrl b</kbd> - build tasks<br>
