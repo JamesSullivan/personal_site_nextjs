@@ -1,29 +1,31 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
-  --background-image-gradient-conic: conic-gradient(
-    from 180deg at 50% 50%,
-    var(--tw-gradient-stops)
-  );
+    --background-image-gradient-radial: radial-gradient(
+        var(--tw-gradient-stops)
+    );
+    --background-image-gradient-conic: conic-gradient(
+        from 180deg at 50% 50%,
+        var(--tw-gradient-stops)
+    );
 
-  --color-accent-1: #fafafa;
-  --color-accent-2: #eaeaea;
-  --color-accent-7: #333;
-  --color-success: #0070f3;
-  --color-cyan: #79ffe1;
+    --color-accent-1: #fafafa;
+    --color-accent-2: #eaeaea;
+    --color-accent-7: #333;
+    --color-success: #0070f3;
+    --color-cyan: #79ffe1;
 
-  --tracking-tighter: -0.04em;
+    --tracking-tighter: -0.04em;
 
-  --text-5xl: 2.5rem;
-  --text-6xl: 2.75rem;
-  --text-7xl: 4.5rem;
-  --text-8xl: 6.25rem;
+    --text-5xl: 2.5rem;
+    --text-6xl: 2.75rem;
+    --text-7xl: 4.5rem;
+    --text-8xl: 6.25rem;
 
-  --shadow-sm: 0 5px 10px rgba(0, 0, 0, 0.12);
-  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.12);
+    --shadow-sm: 0 5px 10px rgba(0, 0, 0, 0.12);
+    --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 /*
@@ -35,13 +37,13 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentcolor);
+    }
 }
 
 .max-w-2xl.mx-auto {
@@ -49,92 +51,99 @@
 }
 
 a {
-    font-weight:bold;
+    font-weight: bold;
     text-decoration: inherit;
 }
 blockquote {
-  border-left: 3px solid #000000;
-  color: #1a1a1a;
-  font-family: Arial, Times, "Times New Roman", serif;
-  padding: 0em 2em;
-  position: relative;
-  transition: 0.2s border ease-in-out;
-  z-index: 0;
+    border-left: 3px solid #000000;
+    color: #1a1a1a;
+    font-family: Arial, Times, "Times New Roman", serif;
+    padding: 0em 2em;
+    position: relative;
+    transition: 0.2s border ease-in-out;
+    z-index: 0;
 }
 
 .border {
     border-width: 1px;
-  }
+}
 
 .border-border {
     --tw-border-opacity: 1;
-  }
+}
 
 .overflow-y-auto {
     overflow-y: auto;
-  }
+}
 
 .pl-3 {
     padding-left: 0.75rem;
-  }
+}
 
 .relative {
     position: relative;
-  }
-  
+}
+
 .rounded-md {
     border-radius: 0.375rem;
-  }
+}
 
 .scroll-contain {
     overscroll-behavior: contain;
-  }
+}
 
 .shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-  
+    --tw-shadow:
+        0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored:
+        0 20px 25px -5px var(--tw-shadow-color),
+        0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow:
+        var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 /*Social Media */
 
 .fa-fw {
     text-align: center;
     width: 1.25em;
-  }
-  
-  .svg-inline--fa {
+}
+
+.svg-inline--fa {
     display: inline-block;
-    font-size: 8.0rem;
+    font-size: 8rem;
     height: 1em;
     overflow: visible;
-    vertical-align: -.125em
-  }
-  
+    vertical-align: -0.125em;
+}
+
 .svg-inline--fa.fa-fw {
     width: 1.25em;
-  }
-  
+}
+
 .list-inline-item {
     display: inline-block;
     padding: 20px;
-  }
-  
-  .list-inline {
-    list-style: none;
-  }
+}
 
-  .grid-container {
+.list-inline {
+    list-style: none;
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     font-size: 80%;
-  }
-  
-  kbd {
+}
+
+kbd {
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 0.1em 0.5em;
     margin: 0 0.2em;
-    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    box-shadow:
+        0 1px 0px rgba(0, 0, 0, 0.2),
+        0 0 0 2px #fff inset;
     background-color: #f7f7f7;
 }

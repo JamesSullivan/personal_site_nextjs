@@ -232,6 +232,14 @@ Fix this #selection<br>
 <kbd>⇧ ⏎</kbd> - Add a new line without submitting<br>
 <kbd>/</kbd> - select search/canvas/image/deep research (ChatGPT)<br>
 <kbd>Ctrl k</kbd> - Chat history (ChatGPT)
+<div><br></div>
+<div class="l-font-size">
+   <a href="https://github.com/google-gemini/gemini-cli/blob/main/docs/keyboard-shortcuts.md" style="font-weight: bold;">Gemini CLI</a>
+</div>
+<kbd>!</kbd> - Toggle shell mode<br>
+<kbd>\ ⏎</kbd> (at end of line) - Insert a newline.<br>
+<kbd>Esc</kbd> (double press) -	Clear the input prompt.<br>
+<kbd>Ctrl X</kbd> - Open the current input in an external editor.<br>
 </div>
 </div>
 <br>
