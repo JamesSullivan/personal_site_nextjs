@@ -63,6 +63,7 @@ Middle click page - Open link in background/<kbd>⇧</kbd> foreground<br>
     <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>/<a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>
 </div>
 Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
+<span style="color:Blue;font-weight: bold;"><kbd>Alt+i</kbd></span> - Switch to vim mode<br>
 <kbd>Alt+￪</kbd> - Move current line up one line<br>
 <kbd>⇧ Alt</kbd>+Select - box selection of text<br>
 <kbd>⇧ Alt ￪</kbd> - Extend Cursor upwards<br>
@@ -81,13 +82,13 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>Ctrl l</kbd> - select line (repeat to select following)<br>
 <kbd>Ctrl p</kbd> - search file names, # symbols, > commands<br>
 <kbd>Ctrl x</kbd> - with nothing selected cuts entire line<br>
-<kbd>Ctrl /</kbd> - comment code (works on Jupyter also)<br>
-<kbd>Ctrl \</kbd> - split editor<br>
 </div>
 <div style="">
 <div class="l-font-size">
   &nbsp;
 </div>
+<kbd>Ctrl /</kbd> - comment code (works on Jupyter also)<br>
+<kbd>Ctrl \</kbd> - split editor<br>
 <kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>⇧ Ctrl /</kbd></span> - toggle the AI Chat view<br>
 <kbd>Ctrl Alt n</kbd> - run file (code-runner)<br>
 <kbd>Ctrl Alt s</kbd> - save all files<br>

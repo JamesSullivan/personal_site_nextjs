@@ -10,6 +10,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://solutions.asia'), 
   title: `solutions.asia - data, analytics, and digital products`,
   description: `blog of misc technical and financial subjects.`,
   openGraph: {
