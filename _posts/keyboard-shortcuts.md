@@ -64,9 +64,9 @@ Middle click page - Open link in background/<kbd>⇧</kbd> foreground<br>
 </div>
 Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <span style="color:Blue;font-weight: bold;"><kbd>Alt+i</kbd></span> - Switch to vim mode<br>
-<kbd>Alt+￪</kbd> - Move current line up one line<br>
+<kbd>Alt+￪/￬</kbd> - Move current line up/down one line<br>
 <kbd>⇧ Alt</kbd>+Select - box selection of text<br>
-<kbd>⇧ Alt ￪</kbd> - Extend Cursor upwards<br>
+<kbd>⇧ Alt ￪/￬</kbd> - Extend Cursor upwards/downwards<br>
 <kbd>⇧ Alt →</kbd> - Extend selection horizontally<br>
 <kbd>⇧ Alt .</kbd> - Autofix<br>
 <kbd>F2</kbd> - rename all instances of a variable or function<br>
