@@ -21,10 +21,10 @@ ogImage:
 <kbd>Alt F6</kbd> - Switch Windows of same app  <span style="color:Blue;"><kbd>⌘</kbd>+Click</span><br>
 <kbd>Alt Esc</kbd> - Cycle Windows (current WS no HUD)<br>
 <kbd>⌘ Tab</kbd> - Cycle through Windows (All WSs with HUD)<br>
-<kbd>⌘ PageUp/Down</kbd> <span style="color:Blue;"><kbd>Ctrl ⌘ ←/→</kbd></span> - activate left/right workspace &nbsp;<br>
-<kbd>⇧ ⌘ PageDown</kbd> - move window to right workspace<br>
+<kbd>Ctr Alt ←/→</kbd> <span style="color:Blue;"><kbd>Ctrl ⌘ ←/→</kbd></span> - activate left/right workspace &nbsp;<br>
+<kbd>⇧ Ctr Alt ←/→</kbd> - move focus window to left/right workspace<br>
 <kbd>⇧ ⌘ ←/→</kbd> - Move window one monitor to left/right.<br>
-<kbd>Ctrl PageDown</kbd> - Move to <kbd>Tab</kbd> to the right<br>
+<kbd>Ctrl Page Up/Down</kbd> - Activate <kbd>Tab</kbd> to the left/right<br>
 <kbd>F10</kbd> - Open first menu of app (usually File)<br>
 <kbd>⇧ F10</kbd> - Right mouse click contextual menu<br>
 <kbd>⇧ Ctrl N</kbd> - Create new folder (Nautilus)<br>
@@ -35,11 +35,11 @@ ogImage:
 </div>
 <div style="">
 <div class="l-font-size">
-   <a href="https://www.minitool.com/news/keyboard-shortcuts-for-all-web-browsers.html" style="font-weight: bold;">WEB BROWSER</a>
+   <a href="https://www.minitool.com/news/keyboard-shortcuts-for-all-web-browsers.html" style="font-weight: bold;">WEB BROWSER</a>/FireFox Only
 </div>
-<kbd>'</kbd> - Find link on page then <kbd>⏎</kbd> to open<br>
+<span style="color:Blue;"><kbd>'</kbd></span> - Find link input on bottom of page then <kbd>⏎</kbd> to open<br>
 <kbd>Ctrl Tab</kbd> - Switch to the next Tab<br>
-<kbd>Alt</kbd>/<span style="color:Blue;"><kbd>Ctrl</kbd></span>+1..9 - Locate to Tab ...<br>
+<kbd>Alt</kbd>+1..9 - Locate to Tab ...<br>
 <kbd>Ctrl d</kbd> - Bookmark the current Tab<br>
 <kbd>⇧ Ctrl d</kbd> - Bookmark all open Tabs<br>
 <kbd>Ctrl g</kbd> - Find next after find <kbd>F3</kbd><br>
@@ -82,14 +82,14 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>Ctrl l</kbd> - select line (repeat to select following)<br>
 <kbd>Ctrl p</kbd> - search file names, # symbols, > commands<br>
 <kbd>Ctrl x</kbd> - with nothing selected cuts entire line<br>
+<kbd>Ctrl /</kbd> - comment code (works on Jupyter also)<br>
+<kbd>Ctrl \</kbd> - split editor<br>
 </div>
 <div style="">
 <div class="l-font-size">
   &nbsp;
 </div>
-<kbd>Ctrl /</kbd> - comment code (works on Jupyter also)<br>
-<kbd>Ctrl \</kbd> - split editor<br>
-<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>⇧ Ctrl /</kbd></span> - toggle the AI Chat view<br>
+<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>Ctrl Alt B</kbd></span> - open/close the AI Chat view<br>
 <kbd>Ctrl Alt n</kbd> - run file (code-runner)<br>
 <kbd>Ctrl Alt s</kbd> - save all files<br>
 <kbd>⇧ Ctrl b</kbd> - build tasks<br>
@@ -101,6 +101,7 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>⇧ Ctrl o</kbd> - find by code<br>
 <kbd>⇧ Ctrl v</kbd> - view markdown new tab/<kbd>Ctrl k</kbd> <kbd>v</kbd>side<br>
 <kbd>⇧ Ctrl x</kbd> - extensions<br>
+<kbd>⇧ Ctrl /</kbd> - toggle focus to/from AI chat<br>
 <kbd>⇧ Ctrl \</kbd> - goto matching bracket ()<br>
 <kbd>⇧ Ctrl .</kbd> - breadcrumbs (contextual navigation)<br>
 <kbd>Ctrl c</kbd> <kbd>Ctrl v</kbd>- Copy line down<br>
