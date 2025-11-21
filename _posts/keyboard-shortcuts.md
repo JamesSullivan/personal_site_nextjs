@@ -60,7 +60,7 @@ Middle click page - Open link in background/<kbd>⇧</kbd> foreground<br>
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>/<a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>
+    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>/<a href="https://cheatsheets.zip/zed"><a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>/<a href="https://antigravity.google/docs/get-started"><span style="color:Green;font-weight: bold;">ANTIGRAVITY</span></a>
 </div>
 Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <span style="color:Blue;font-weight: bold;"><kbd>Alt+i</kbd></span> - Switch to vim mode<br>
@@ -77,6 +77,7 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>Ctrl [</kbd> - shift selection left or <kbd>Ctrl ]</kbd> right<br>
 <kbd>Ctrl b</kbd> - toggle side panel<br>
 <kbd>Ctrl d</kbd> - select/go to next after find/multiselection<br>
+<span style="color:Green;"><kbd>Ctrl e</kbd> - toggle between editor/agent manager</span><br>
 <kbd>Ctrl g</kbd> - go to line<br>
 <kbd>Ctrl j</kbd> - toggle focus between editor/terminal<br>
 <kbd>Ctrl l</kbd> - select line (repeat to select following)<br>
@@ -89,7 +90,7 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <div class="l-font-size">
   &nbsp;
 </div>
-<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>Ctrl Alt B</kbd></span> - open/close the AI Chat view<br>
+<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>Ctrl Alt b</kbd>/<span style="color:Green;"><kbd>Ctrl l</kbd></span> - open/close the AI Chat view<br>
 <kbd>Ctrl Alt n</kbd> - run file (code-runner)<br>
 <kbd>Ctrl Alt s</kbd> - save all files<br>
 <kbd>⇧ Ctrl b</kbd> - build tasks<br>
@@ -117,9 +118,10 @@ New file ! then <kbd>Tab</kbd> - creates html template<br>
 <div style="">
 <div class="l-font-size">
    <a href="https://docs.github.com/en/copilot/copilot-chat-cookbook" style="font-weight:bold;">GITHUB COPILOT</a>
+   /<a href="https://cheatsheets.zip/zed"><a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>/<a href="https://antigravity.google/docs/get-started"><span style="color:Green;font-weight: bold;">ANTIGRAVITY</span></a>
 </div>
 <span style="font-weight:bold;">Editor</span><br>
-<kbd>Ctrl i</kbd>/<span style="color:Blue;"><kbd>Ctrl ⏎</kbd></span>Inline AI Assistant  <span style="color:Blue;">Zed</span><br>
+<kbd>Ctrl i</kbd>/<span style="color:Blue;"><kbd>Ctrl ⏎</kbd></span><span style="color:Green;"><kbd>Ctrl i</kbd></span>Inline AI Assistant <br>
 Autocomplete (<kbd>Tab</kbd> accept all) (<kbd>Ctrl →</kbd> accept next word)<br>
 Mouse over autocomplete to see bar for additional possibilities<br>
 Click on squigglies then press on stars to select fix<br>
@@ -168,12 +170,11 @@ Fix this #selection<br>
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-   <a href="https://code.visualstudio.com/docs/python/jupyter-support-py#_additional-commands-and-keyboard-shortcuts" style="font-weight:bold;">JUPYTER(in VS Code)</a>
+   <a href="https://code.visualstudio.com/docs/python/jupyter-support-py#_additional-commands-and-keyboard-shortcuts" style="font-weight:bold;">JUPYTER (in VS Code)</a>
 </div>
 <kbd>Esc</kbd> - command mode j/k down/up  m/y markdown/code<br>
 <kbd>⏎</kbd> - edit mode in cell from command mode<br>
-<kbd>Ctrl ⏎</kbd> - to run the current cell<br>
-<kbd>⇧ ⏎</kbd> - run the current cell and advance to the next.<br>
+<kbd>Ctrl/⇧/Alt ⏎</kbd> - run current cell and nothing/advance to the next/create new cell<br>
 <kbd>Ctrl Alt [/]</kbd> - go to the cell above/below<br>
 <kbd>⇧ Ctrl Alt [/]</kbd> - extend selection by cell above/below<br>
 <kbd>Ctrl ;</kbd> U - move selected cells up<br>
