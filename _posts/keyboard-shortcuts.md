@@ -77,7 +77,6 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <kbd>Ctrl [</kbd> - shift selection left or <kbd>Ctrl ]</kbd> right<br>
 <kbd>Ctrl b</kbd> - toggle side panel<br>
 <kbd>Ctrl d</kbd> - select/go to next after find/multiselection<br>
-<span style="color:Green;"><kbd>Ctrl e</kbd> - toggle between editor/agent manager</span><br>
 <kbd>Ctrl g</kbd> - go to line<br>
 <kbd>Ctrl j</kbd> - toggle focus between editor/terminal<br>
 <kbd>Ctrl l</kbd> - select line (repeat to select following)<br>
@@ -90,7 +89,7 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <div class="l-font-size">
   &nbsp;
 </div>
-<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>Ctrl Alt b</kbd>/<span style="color:Green;"><kbd>Ctrl l</kbd></span> - open/close the AI Chat view<br>
+<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>Ctrl Alt b</kbd></span>/<span style="color:Green;"><kbd>Ctrl l</kbd></span> - open/close the AI Chat view<br>
 <kbd>Ctrl Alt n</kbd> - run file (code-runner)<br>
 <kbd>Ctrl Alt s</kbd> - save all files<br>
 <kbd>⇧ Ctrl b</kbd> - build tasks<br>
@@ -122,6 +121,7 @@ New file ! then <kbd>Tab</kbd> - creates html template<br>
 </div>
 <span style="font-weight:bold;">Editor</span><br>
 <kbd>Ctrl i</kbd>/<span style="color:Blue;"><kbd>Ctrl ⏎</kbd></span><span style="color:Green;"><kbd>Ctrl i</kbd></span>Inline AI Assistant <br>
+<span style="color:Green;"><kbd>Ctrl e</kbd> - toggle between editor/agent manager</span><br>
 Autocomplete (<kbd>Tab</kbd> accept all) (<kbd>Ctrl →</kbd> accept next word)<br>
 Mouse over autocomplete to see bar for additional possibilities<br>
 Click on squigglies then press on stars to select fix<br>
