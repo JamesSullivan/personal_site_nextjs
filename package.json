@@ -6,18 +6,18 @@
     "start": "next start"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
+    "classnames": "2.5.1",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
-    "next": "16.0.7",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
+    "next": "16.0.10",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.17",
-    "@types/node": "^24.10.1",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.1",
     "@types/react": "*",
     "@types/react-dom": "*",
     "postcss": "^8.5.6",
