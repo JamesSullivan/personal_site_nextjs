@@ -22,6 +22,13 @@ Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packag
 npx create-next-app --example blog-starter blog-starter-app
 ```
 
+
+If using mise to grab the latest LTS version
+```bash
+mise install
+```
+
+
 ```bash
 npm run dev
 npm run build
