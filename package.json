@@ -16,11 +16,11 @@
     "remark-html": "^16.0.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.2",
+    "@tailwindcss/postcss": "^4.2.4",
     "@types/node": "^25.6.0",
     "@types/react": "*",
     "@types/react-dom": "*",
-    "postcss": "^8.5.10",
+    "postcss": "^8.5.12",
     "typescript": "^6.0.3"
   },
   "engines": {
