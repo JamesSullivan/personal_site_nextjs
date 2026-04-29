@@ -66,13 +66,23 @@ Settings > Keyboard > View and Customize Shortcuts
 
 ## Gnome Extension Manager
 
-NOTE: Ubuntu 26.04 Already has [Ubuntu Tiling Assistant](https://github.com/ubuntu/Tiling-Assistant/wiki) installed so there is no need to install it. However, you may want to change some of the settings. I set up a template to launch all of the apps I usually use with a single key press.
+### [Ubuntu Tiling Assistant](https://github.com/ubuntu/Tiling-Assistant/wiki)
+
+NOTE: Ubuntu 26.04 already has [Ubuntu Tiling Assistant](https://github.com/ubuntu/Tiling-Assistant/wiki) installed so there is no need to install it. However, you may want to change some of the settings. I set up a template to launch all of the apps I usually use with a single key press. 
+
+In *Extension Manager* > *System Extensions* > *Ubuntu Tiling Assistant* click on the gear icon to get to the configuration page. You then have to click on the circled **i** in the top right corner and select **Advanced Settings**. Turn on advanced/experimental settings and only then will you be able to see the *Layouts* tab at the top of the screen that you need. Not very user friendly.
+
+If you mess up your Tiling Assistant Settings, as I did at one point, you can reset it by running the following command in a terminal:
+```bash
+gsettings reset-recursively org.gnome.shell.extensions.tiling-assistant
+```
+
 
 ### [Run or Raise](https://github.com/CZ-NIC/run-or-raise)
 
 Use the <Super key> *Extension*  to bring up the Gnome extensions manager
 
-Browse > Search for __Run or Raise__ and install
+*Browse* > Search for __Run or Raise__ and install
 
 Use the gear icon and then the open shortcuts.conf file to configure
 
