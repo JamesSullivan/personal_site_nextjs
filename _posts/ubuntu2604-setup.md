@@ -107,7 +107,7 @@ curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Roboto
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/NerdFontsSymbolsOnly.zip
 
 # 1. Extract the file into folder
-tar -xf RobotoMono.tar.xz
+mkdir -p RobotoMono && tar -xf RobotoMono.tar.xz -C RobotoMono --strip-components=1
 unzip NerdFontsSymbolsOnly.zip -d NerdFontsSymbolsOnly
 
 # 2. Move the folder to the system fonts directory
@@ -140,7 +140,8 @@ If you want to be able to update without entering sudo password everytime. Repla
 
 ```bash
 sudo visudo
-#add the following to just before the last line to allow apt update without typing pw
+# add the following to just before the last line to allow apt update without typing pw
+# remember to replace user_name below with your actual user name
 user_name ALL=(ALL) NOPASSWD: /usr/bin/apt update, /usr/bin/apt upgrade -y, /usr/bin/apt list
 
 Defaults env_keep += "TERMINFO"
@@ -208,7 +209,9 @@ git config --global user.name "Your Name"
 git config --global user.email your.name@email.com
 ```
 
+
 #### Do you want to copy the keys or create new ones?
+
 
 ##### Create new ones
 
@@ -242,7 +245,9 @@ mise use --global node@lts
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 # echo 'eval "$(uv generate-shell-completion bash)"' >> ~/.bashrc
-uv tool install ipdb ipython ruff
+uv tool install ipdb 
+uv tool install ipython
+uv tool install ruff
 ```
 
 ### [Antigravity](https://antigravity.google/download/linux)
