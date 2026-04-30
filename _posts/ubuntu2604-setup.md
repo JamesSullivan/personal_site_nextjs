@@ -256,8 +256,8 @@ uv tool install ruff
 ### [VS Code](https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux)
 ```bash
 code_url="https://go.microsoft.com/fwlink/?LinkID=760868"
-curl -OL "$code_url"
-sudo apt install ./(ls code_*_amd64.deb | head -n 1)
+curl -Lo code_latest_amd64.deb "$code_url"
+sudo apt install ./code_latest_amd64.deb
 
 ```
 
@@ -279,7 +279,7 @@ sudo apt-get update && sudo apt-get install dbeaver-ce
 sudo apt install libxcb-xinerama0 libxcb-cursor0 libnss3 mplayer
 anki_url="https://github.com/ankitects/anki/releases/download/25.09/anki-launcher-25.09-linux.tar.zst"
 curl -OL "$anki_url"
-mkdir -p ~/.local/share
+mkdir -p ~/.local/share/anki
 tar --use-compress-program=unzstd -xf "${anki_url##*/}" -C ~/.local/share/anki --strip-components=1
 ln -s ~/.local/share/anki/anki ~/.local/bin/anki
 echo 'export ANKI_WAYLAND-1' >> ~/.bashrc
