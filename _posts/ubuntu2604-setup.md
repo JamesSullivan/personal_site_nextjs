@@ -29,11 +29,11 @@ A post install set up for Ubuntu 26.04 for people that like the concept of somet
 
 ``` bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y neovim curl ripgrep wl-clipboard tmux tree
+sudo apt install -y neovim curl ripgrep wl-clipboard tmux tree gnome-shell-extension-manager
 sudo apt install -y p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract filezilla
 sudo apt install -y gnome-tweaks file-roller gnome-shell-extension-gpaste
 sudo apt install ubuntu-restricted-extras vlc libavcodec-extra mpv ffmpeg 
-sudo apt install -y fd-find fzf bat kitty lsd jq btop
+sudo apt install -y fd-find fzf bat kitty lsd jq btop 
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 ```
@@ -63,8 +63,14 @@ Settings > Keyboard > View and Customize Shortcuts
         * Shortcut - Shift + alt + F4
 
 
+RESTART COMPUTER
 
 ## Gnome Extension Manager
+
+### [Gpaste - Clipboard Manager](https://www.putorius.net/gpaste-best-clipboard-manager-for-gnome.html)
+
+Use the <Super key> *Extension*  to bring up the Extension Manager and then turn on Gpaste
+
 
 ### [Ubuntu Tiling Assistant](https://github.com/ubuntu/Tiling-Assistant/wiki)
 
@@ -80,7 +86,7 @@ gsettings reset-recursively org.gnome.shell.extensions.tiling-assistant
 
 ### [Run or Raise](https://github.com/CZ-NIC/run-or-raise)
 
-Use the <Super key> *Extension*  to bring up the Gnome extensions manager
+Use the \<Super key\> *Extension*  to bring up the Gnome extensions manager
 
 *Browse* > Search for __Run or Raise__ and install
 
