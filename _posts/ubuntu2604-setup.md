@@ -246,6 +246,14 @@ sudo apt install ./(ls code_*_amd64.deb | head -n 1)
 
 ### [OpenCode](https://opencode.ai/docs/#install)
 
+### [DBeaver - Universal Database Tool](https://dbeaver.io/)
+```bash
+wget -O- https://dbeaver.io/debs/dbeaver.gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/dbeaver-archive-keyring.gpg > /dev/null
+rm dbeaver.gpg.key
+echo "deb [signed-by=/usr/share/keyrings/dbeaver-archive-keyring.gpg] https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list
+sudo apt-get update && sudo apt-get install dbeaver-ce
+```
+
 
 ## Other Misc. Apps
 
