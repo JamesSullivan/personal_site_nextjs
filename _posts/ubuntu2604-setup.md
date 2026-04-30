@@ -69,7 +69,7 @@ RESTART COMPUTER
 
 ### [Gpaste - Clipboard Manager](https://www.putorius.net/gpaste-best-clipboard-manager-for-gnome.html)
 
-Use the <Super key> *Extension*  to bring up the Extension Manager and then turn on Gpaste
+Use the \<Super key\> *Extension*  to bring up the Extension Manager and then turn on Gpaste
 
 
 ### [Ubuntu Tiling Assistant](https://github.com/ubuntu/Tiling-Assistant/wiki)
@@ -156,14 +156,17 @@ Recommend aliasing to up by adding the following line in ~/.bashrc
 
 `sudo apt install -y fonts-ipafont fonts-vlgothic xfonts-intl-japanese xfonts-intl-japanese-big fonts-roboto`
 
-Settings > Region & Language > Manage Installed languages
+Settings > System > Region & Language > Manage Installed languages
+
 ```bash
 sudo apt install ibus-mozc 
 ibus restart 
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'jp'), ('ibus', 'mozc-jp'), ('xkb', 'us')]"
 ```
 
-`ibus-setup`　if you want to change preferences but defaults should be fine.
+`ibus-setup`　if you want to add input languages.
+
+Settings > Keyboard > Input Sources (add your input sources and make sure they are in the order you want).
 
 
 ## Docker Installation
@@ -178,6 +181,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
   https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo ${UBUNTU_CODENAME:-$VERSION_CODENAME}) stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo systemctl enable --now docker
 sudo usermod -aG docker $USER
@@ -197,10 +201,12 @@ docker run hello-world
 `mkdir -p ~/bin ~/dev/java ~/dev/python ~/dev/ts`
 
 ### Git
+```bash
 sudo apt-get install git
 git config --global core.editor "vim"
 git config --global user.name "Your Name"
 git config --global user.email your.name@email.com
+```
 
 #### Do you want to copy the keys or create new ones?
 
