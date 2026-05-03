@@ -16,7 +16,7 @@ ogImage:
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-  <a href="https://help.gnome.org/users/gnome-help/s<kbd>Tab</kbd>le/shell-keyboard-shortcuts.html.en"><b>GNOME</b></a>/<a href="https://www.customguide.com/cheat-sheet/windows-11-quick-reference.pdf"><span style="color:Blue;font-weight: bold;">WINDOWS 11</span></a>
+  <a href="https://help.gnome.org/gnome-help/shell-keyboard-shortcuts.html"><b>GNOME</b></a>/<a href="https://www.customguide.com/cheat-sheet/windows-11-quick-reference.pdf"><span style="color:Blue;font-weight: bold;">WINDOWS 11</span></a>
 </div>
 <kbd>Alt F6</kbd> - Switch Windows of same app  <span style="color:Blue;"><kbd>⌘</kbd>+Click</span><br>
 <kbd>Alt Esc</kbd> - Cycle Windows (current WS no HUD)<br>
