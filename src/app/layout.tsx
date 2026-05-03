@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
+import { cookies } from "next/headers";
 
 import "./globals.css";
 
@@ -18,13 +19,21 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const cookieStore = await cookies();
+  const theme =
+    (cookieStore.get("nextjs-blog-starter-theme")?.value as
+      | "system"
+      | "dark"
+      | "light"
+      | undefined) ?? "system";
+
   return (
-    <html lang="en" data-mode="light">
+    <html lang="en" data-mode={theme} suppressHydrationWarning>
       <head>
         <link
           rel="apple-touch-icon"
@@ -60,6 +69,7 @@ export default function RootLayout({
       </head>
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
+        suppressHydrationWarning
       >
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>

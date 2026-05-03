@@ -78,6 +78,7 @@ const Switch = () => {
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, mode);
+    document.cookie = `${STORAGE_KEY}=${mode}; path=/; max-age=31536000`;
     updateDOM();
   }, [mode]);
 

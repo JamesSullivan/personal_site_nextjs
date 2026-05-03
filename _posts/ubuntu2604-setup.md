@@ -83,6 +83,8 @@ If you mess up your Tiling Assistant Settings, as I did at one point, you can re
 gsettings reset-recursively org.gnome.shell.extensions.tiling-assistant
 ```
 
+** NOTE ** Ubuntu Tiling Assistant manager doesn't seem to work reliably, which is probably why they have hidden the advanced settings. Disappointing as a distro, especially a LTS distro, really should have a decent tiling manager that works.
+
 
 ### [Run or Raise](https://github.com/CZ-NIC/run-or-raise)
 
