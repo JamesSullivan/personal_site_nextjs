@@ -284,7 +284,7 @@ curl -OL "$anki_url"
 mkdir -p ~/.local/share/anki
 tar --use-compress-program=unzstd -xf "${anki_url##*/}" -C ~/.local/share/anki --strip-components=1
 ln -s ~/.local/share/anki/anki ~/.local/bin/anki
-echo 'export ANKI_WAYLAND-1' >> ~/.bashrc
+echo 'export ANKI_WAYLAND=1' >> ~/.bashrc
 cp ~/.local/share/anki/anki.desktop ~/.local/share/applications/
 sed -i "s|^Exec=.*|Exec=env ANKI_WAYLAND=1 ${HOME}/.local/share/anki/anki %f|" ${HOME}/.local/share/applications/anki.desktop
 sed -i "s|^TryExec=.*|TryExec=${HOME}/.local/share/anki/anki|" ${HOME}/.local/share/applications/anki.desktop
