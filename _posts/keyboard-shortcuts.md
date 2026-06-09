@@ -2,7 +2,7 @@
 title: "Keyboard Shortcuts"
 d<kbd>Esc</kbd>ription: A placeholder for useful OS, VS Code and other keyboard shortcuts
 excerpt: "Keyboard Shortcuts for the Desktop (Gnome/Windows), Web Browsers, and VS Code"
-date: "2023-07-28T09:35:07.323Z"
+date: "2026-07-08T09:35:07.323Z"
 
 author:
   name: James Sullivan
@@ -60,7 +60,7 @@ Middle click page - Open link in background/<kbd>⇧</kbd> foreground<br>
 <div class="grid-container">
 <div style="">
 <div class="l-font-size">
-    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>/<a href="https://cheatsheets.zip/zed"><a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>/<a href="https://antigravity.google/docs/get-started"><span style="color:Green;font-weight: bold;">ANTIGRAVITY</span></a>
+    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" style="font-weight:bold;">VS CODE</a>/<a href="https://cheatsheets.zip/zed"><a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>
 </div>
 Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <span style="color:Blue;font-weight: bold;"><kbd>Alt+i</kbd></span> - Switch to vim mode<br>
@@ -89,7 +89,7 @@ Select+<kbd>Ctrl+d</kbd> - add multi-cursor at next<br>
 <div class="l-font-size">
   &nbsp;
 </div>
-<kbd>Ctrl Alt i</kbd>/<span style="color:Blue;"><kbd>Ctrl Alt b</kbd></span>/<span style="color:Green;"><kbd>Ctrl l</kbd></span> - open/close the AI Chat view<br>
+<kbd>Ctrl Alt b</kbd> - open/close the AI Chat view<br>
 <kbd>Ctrl Alt n</kbd> - run file (code-runner)<br>
 <kbd>Ctrl Alt s</kbd> - save all files<br>
 <kbd>⇧ Ctrl b</kbd> - build tasks<br>
@@ -117,11 +117,11 @@ New file ! then <kbd>Tab</kbd> - creates html template<br>
 <div style="">
 <div class="l-font-size">
    <a href="https://docs.github.com/en/copilot/copilot-chat-cookbook" style="font-weight:bold;">GITHUB COPILOT</a>
-   /<a href="https://cheatsheets.zip/zed"><a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>/<a href="https://antigravity.google/docs/get-started"><span style="color:Green;font-weight: bold;">ANTIGRAVITY</span></a>
+   /<a href="https://cheatsheets.zip/zed"><span style="color:Blue;font-weight: bold;">ZED</span></a>
 </div>
 <span style="font-weight:bold;">Editor</span><br>
-<kbd>Ctrl i</kbd>/<span style="color:Blue;"><kbd>Ctrl ⏎</kbd></span><span style="color:Green;"><kbd>Ctrl i</kbd></span>Inline AI Assistant <br>
-<span style="color:Green;"><kbd>Ctrl e</kbd> - toggle between editor/agent manager</span><br>
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+i - open/close the Chat view with focus<br>
+<kbd>Ctrl i</kbd>/<span style="color:Blue;"><kbd>Ctrl ⏎</kbd></span>Inline AI Assistant <br>
 Autocomplete (<kbd>Tab</kbd> accept all) (<kbd>Ctrl →</kbd> accept next word)<br>
 Mouse over autocomplete to see bar for additional possibilities<br>
 Click on squigglies then press on stars to select fix<br>
@@ -131,25 +131,17 @@ Select then <kbd>Ctrl i</kbd> /fix - fix selection<br>
 <kbd>Ctrl ⏎</kbd> copy to terminal and execute<br>
 <kbd>Alt ⏎</kbd> copy to terminal but do not execute<br>
 copilot-debug node app.js or copilot-debug python manage.py<br>
-<span style="font-weight:bold;">Chat</span><br>   generate tests, generate documentation, etc.<br>
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+i - open/close the Chat view<br>
-<kbd>⇧ Ctrl p</kbd> <code>Create Prompt</code> - save prompts<br>
-<span style="font-weight:bold;">Chat Commands</span><br>
-<kbd>Ctrl /</kbd> attach context to prompt<br>
-/explain /fix /setupTests /fixTestFailure /startDebugging<br>
-/new Express app using typescript and svelte<br>
-/newNotebook get census data and preview key insights with Seaborn.<br>
+<span style="font-weight:bold;">Chat Context Variables</span><br>
+#file #problems #search (results from sidebar) #fetch (url)<br>
+How to improve #file:server.ts?<br>
+Fix this #selection<br>
+#sym:load_csvs_to_duckdb<br>
 </div>
 <div style="">
 <div class="l-font-size">
   &nbsp;
 </div>
-<span style="font-weight:bold;">Chat Context Variables</span><br>
-#file #problems #searchResults from left sidebar #fetch url<br>
-How to improve #file:server.ts?<br>
-Fix this #selection<br>
-#sym:load_csvs_to_duckdb<br>
-<span style="font-weight:bold;">Chat Extensions</span><br>
+<span style="font-weight:bold;">Chat Participants</span><br>
 @workspace where is database connecting string configured?<br>
 @workspace add a new API route for the forgot password form<br>
 @vscode how to enable word wrapping?<br>
@@ -157,15 +149,51 @@ Fix this #selection<br>
 @vscode /search python files without imports<br>
 @github What are all of the open PRs assigned to me?<br>
 <br>
+<span style="font-weight:bold;">Slash Commands</span><br>
+/fix /explain /optimize /tests<br>
+/new Express app using typescript and svelte<br>
+/newNotebook get census data and preview key insights with Seaborn.<br>
+<br>
 <a href="https://marketplace.visualstudio.com/search?target=VSCode&category=AI&sortBy=Installs">More extensions</a><br>
-<a href="https://marketplace.visualstudio.com/items?itemName=buildwithlayer.django-integration-expert-Gus30">Django</a><br>
-<a href="https://marketplace.visualstudio.com/items?itemName=buildwithlayer.sqlalchemy-integration-expert-jYSzG">SQLAlchemy</a><br>
-<a href="https://marketplace.visualstudio.com/items?itemName=genaiscript.genaiscript-vscode">Gen AI Script</a><br>
+<a href="https://marketplace.visualstudio.com/items?itemName=buildwithlayer.django-integration-expert-Gus30">Django</a>, <a href="https://marketplace.visualstudio.com/items?itemName=buildwithlayer.sqlalchemy-integration-expert-jYSzG">SQLAlchemy</a><br>
+<a href="https://marketplace.visualstudio.com/items?itemName=genaiscript.genaiscript-vscode">Gen AI Script</a>,
 <a href="https://marketplace.visualstudio.com/items?itemName=AutomataLabs.copilot-mcp">Copilot MCP</a><br>
 <a href="https://modelcontextprotocol.io/examples">MCP Examples</a><br>
 </div>
 </div>
 <br>
+
+<div class="grid-container">
+<div style="">
+<div class="l-font-size">
+   <a href="https://opencode.ai/docs" style="font-weight:bold;">OPENCODE</a>
+   /<a href="https://antigravity.google/docs/cli-overview"><span style="color:Blue;font-weight: bold;">ANTIGRAVITY CLI</span></a>
+</div>
+<span style="font-weight:bold;">General</span><br>
+<kbd>@</kbd> - attach files with autocomplete<br>
+<kbd>!</kbd> - run terminal commands<br>
+<kbd>/</kbd> - slash commands<br>
+/agents /diff /fork /help /model /mcp /skill /undo<br>
+<br>
+<span style="font-weight:bold;">OpenCode</span><br>
+<kbd>@</kbd>explore - read, grep, glob, list, etc. Fast read-only<br>
+<kbd>@</kbd>general - full tools, multi-step, edit files<br>
+<kbd>ctrl</kbd>p - help<br>
+</div>
+<div style="">
+<div class="l-font-size">
+   <a href="https://www.minitool.com/news/keyboard-shortcuts-for-all-web-browsers.html" style="color:Blue;font-weight: bold;">Antigravity CLI</a>
+</div>
+<span style="color:Blue;"><kbd>?</kbd></span> - help<br>
+<span style="color:Blue;"><kbd>ctrl</kbd>g</span> - open editor<br>
+<span style="color:Blue;"><kbd>ctrl</kbd>r</span> - search history<br>
+<span style="color:Blue;"><kbd>/</kbd>open [path]</span> - open in editor<br>
+<span style="color:Blue;"><kbd>/</kbd>usage</span> - model usage<br>
+<span style="color:Blue;"><kbd>/</kbd>tasks</span> - monitor, view logs, bg taks<br>
+</div>
+</div>
+<br>
+
 
 <div class="grid-container">
 <div style="">
@@ -235,14 +263,7 @@ Fix this #selection<br>
 <kbd>⇧ ⏎</kbd> - Add a new line without submitting<br>
 <kbd>/</kbd> - select search/canvas/image/deep research (ChatGPT)<br>
 <kbd>Ctrl k</kbd> - Chat history (ChatGPT)
-<div><br></div>
-<div class="l-font-size">
-   <a href="https://github.com/google-gemini/gemini-cli/blob/main/docs/keyboard-shortcuts.md" style="font-weight: bold;">Gemini CLI</a>
-</div>
-<kbd>!</kbd> - Toggle shell mode<br>
-<kbd>\ ⏎</kbd> (at end of line) - Insert a newline.<br>
-<kbd>Esc</kbd> (double press) -	Clear the input prompt.<br>
-<kbd>Ctrl X</kbd> - Open the current input in an external editor.<br>
+<div><br>
 </div>
 </div>
 <br>
